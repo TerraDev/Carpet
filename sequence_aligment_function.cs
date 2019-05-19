@@ -1,3 +1,16 @@
+public static string matrix_to_array(string[,] matrix)
+        {
+            string array = "", temp;
+            for (int i = 0; i < 300; i++)
+            {
+                for (int j = 0; j < 400; j++)
+                {
+                    temp = array;
+                    array = temp.Insert(temp.Length, matrix[i,j]);
+                }
+            }
+            return array;
+        }
 public static string getMinimumPenalty(string x, string y, int pxy, int pgap)  
     {  
         int i, j; // intialising variables  
