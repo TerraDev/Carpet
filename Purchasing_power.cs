@@ -8,7 +8,7 @@ static List<string[,]> Purchasing_power(List<string[,]> matrix,int price)
                 value_carpet.Add(item, rnd.Next(1, 20));
             }
             var items = from pair in value_carpet
-                        orderby pair.Value descending
+                        orderby pair.Value ascending
                         select pair;
             foreach (var item in items)
             {
