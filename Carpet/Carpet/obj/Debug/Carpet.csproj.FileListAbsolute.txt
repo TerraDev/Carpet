@@ -1,0 +1,17 @@
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\bin\Debug\Carpet.exe.config
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\bin\Debug\Carpet.exe
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\bin\Debug\Carpet.pdb
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\Carpet.csprojAssemblyReference.cache
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\MainWindow.g.cs
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\App.g.cs
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\Carpet_MarkupCompile.cache
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\Carpet_MarkupCompile.lref
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\MainWindow.baml
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\Carpet.g.resources
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\Carpet.Properties.Resources.resources
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\Carpet.csproj.GenerateResource.cache
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\Carpet.csproj.CoreCompileInputs.cache
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\Carpet.exe
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\Carpet.pdb
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\SecondWindow.g.cs
+F:\Behdad\programming\C#\UNI Projects\Carpet Factory\Carpet\Carpet\obj\Debug\SecondWindow.baml

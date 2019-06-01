@@ -1,0 +1,39 @@
+﻿<Window x:Class="Carpet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Carpet"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="930.8">
+    <Grid Margin="0,0,-6.4,0">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF92DC11" Offset="0"/>
+                <GradientStop Color="White" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <StackPanel HorizontalAlignment="Stretch" Margin="13.2,5,644,363.4" Width="273.6" Orientation="Horizontal">
+            <TextBox x:Name="_1st_D" Height="34.8" TextWrapping="Wrap" Text="0" Width="64.8" HorizontalAlignment="Right" FontSize="22" VerticalAlignment="Top"/>
+            <Button x:Name="B_Submit" Content="Submit&#xD;&#xA;" HorizontalAlignment="Left" Height="34.8" VerticalAlignment="Top" Width="127.2" FontFamily="Papyrus" FontSize="22" Click="Click_Dimensions" Background="#FF76EBB2"/>
+            <TextBlock x:Name="DIM" HorizontalAlignment="Left" Height="34.8" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="42" FontFamily="Tahoma" FontSize="24"/>
+        </StackPanel>
+        <ScrollViewer x:Name="MyScrollViewer" HorizontalAlignment="Stretch" Margin="13.2,57,3.2,0" Width="914.4" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="278.4" VerticalAlignment="Top">
+            <Grid x:Name="Matrix" Height="275.6" Width="897.031" ShowGridLines="True"/>
+        </ScrollViewer>
+        <Button x:Name="Submit_matrix" Content="Submit matrix&#xD;&#xA;" HorizontalAlignment="Stretch" Margin="387.55,340.4,416.25,0" Width="127" Click="Click_Matrix" FontFamily="Script MT Bold" FontSize="18" Height="34" VerticalAlignment="Top">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFF1E3E3" Offset="0"/>
+                    <GradientStop Color="#FFF31414" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="Refresh" HorizontalAlignment="Stretch" Margin="809.8,10,8.2,0" Width="112.8" FontSize="22" FontFamily="Mj_Aramco Bold" Click="Click_Refresh" Height="42" VerticalAlignment="Top"/>
+        <TextBlock x:Name="Helper" HorizontalAlignment="Stretch" Margin="13.2,340.4,579.2,0" TextWrapping="Wrap" Width="338.4" FontSize="22" Height="56.5" VerticalAlignment="Top"><Run Text="Enter Dimensions"/><LineBreak/><Run Text="Click Refresh button to restart"/></TextBlock>
+        <Button Content="Next" HorizontalAlignment="Left" Height="24.9" Margin="827.2,385.5,0,0" VerticalAlignment="Top" Width="93.6" Click="Go_next"/>
+        <Button x:Name="Choose_Picture" Content="Choose Picture" HorizontalAlignment="Left" Height="27.6" Margin="261.6,10,0,0" VerticalAlignment="Top" Width="124" Click="Choose_Pic"/>
+        <Image x:Name="im1" HorizontalAlignment="Left" Height="56.5" Margin="602.8,340.4,0,0" VerticalAlignment="Top" Width="102"/>
+
+    </Grid>
+</Window>
