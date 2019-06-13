@@ -23,6 +23,7 @@ namespace Carpet
         public SecondWindow()
         {
             InitializeComponent();
+            WindowState = WindowState.Maximized;
         }
 
         public bool clickD = true;
@@ -105,6 +106,13 @@ namespace Carpet
 
             gc.Calculate();
             Show_max.Text = Convert.ToString(gc.Show_max_Color() + 1);
+
+            foreach(KeyValuePair<int,int> kvp in gc.Cols)
+            {
+                Nodes_Colors.Text += $" \n  Node #{kvp.Key} -> {kvp.Value}  ";
+                if (kvp.Key >= 19)
+                    Nodes_Colors.Height += 50;
+            }
         }
 
         private void Go_Next(object sender, RoutedEventArgs e)

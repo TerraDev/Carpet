@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Carpet"
         mc:Ignorable="d"
-        Title="SecondWindow" Height="557.2" Width="1301.6" Background="{x:Null}">
+        Title="SecondWindow" Height="1136.4" Width="1870.42" Background="{x:Null}">
     <Grid Margin="10,0,40.4,0.8">
         <Grid.Background>
             <ImageBrush ImageSource="cyp-custom-carpet-nylon-broadloom.jpg"/>
@@ -32,5 +32,14 @@
             </TextBlock.Background>
         </TextBlock>
         <Button x:Name="Nextt" Content="Next" HorizontalAlignment="Left" Height="54.4" Margin="1065.2,462.4,0,0" VerticalAlignment="Top" Width="147.2" FontSize="20" Click="Go_Next"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="1078.74" Margin="1239.8,17.26,0,0" VerticalAlignment="Top" Width="252">
+            <TextBlock x:Name="Nodes_Colors" HorizontalAlignment="Left" Height="1078.74" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" Foreground="White" FontFamily="Papyrus" FontSize="24">
+                <TextBlock.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black" Offset="0"/>
+                        <GradientStop Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Background><Run Text=":)))"/><LineBreak/></TextBlock>
+        </ScrollViewer>
     </Grid>
 </Window>
