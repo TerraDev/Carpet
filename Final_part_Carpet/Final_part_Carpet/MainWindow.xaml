@@ -1,0 +1,31 @@
+﻿<Window x:Class="Final_part_Carpet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Final_part_Carpet"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="851.266" Width="1436.021">
+    <Grid Margin="0,0,-68.777,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="tas-medium-highway-maintenance-660x396.jpg"/>
+        </Grid.Background>
+        <Button x:Name="Sub_Button_0" Content="Submit" HorizontalAlignment="Left" Height="64.848" Margin="1329.888,10,0,0" VerticalAlignment="Top" Width="151.31" FontSize="36" FontFamily="OCR A Extended" Click="Submit"/>
+        <TextBox x:Name="Sizer" HorizontalAlignment="Left" Height="64.848" Margin="1139.485,10,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="163.787" FontSize="36" FontFamily="OCR A Extended" TextAlignment="Center" Background="#62FFFFFF" Foreground="White"/>
+        <ScrollViewer HorizontalAlignment="Left" Height="393.6" Margin="10,109.324,0,0" VerticalAlignment="Top" Width="1202.4" ScrollViewer.HorizontalScrollBarVisibility="Visible" ScrollViewer.VerticalScrollBarVisibility="Visible" >
+            <Grid x:Name="Matrix" Height="380.8" Width="1168.4" ShowGridLines="True" />
+        </ScrollViewer>
+        <TextBlock HorizontalAlignment="Left" Height="64.848" Margin="953.874,10,0,0" TextWrapping="Wrap" Text="#Junctions" VerticalAlignment="Top" Width="180.611" FontSize="36" Foreground="White"/>
+        <TextBox x:Name="Starter" HorizontalAlignment="Left" Height="64.848" Margin="160.24,16.963,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="163.787" FontSize="36" FontFamily="OCR A Extended" TextAlignment="Center" Background="#2FFFFFFF" Foreground="White"/>
+        <TextBlock HorizontalAlignment="Left" Height="64.848" Margin="10,10,0,0" TextWrapping="Wrap" Text="Address" VerticalAlignment="Top" Width="145.24" FontSize="36" Foreground="White"/>
+        <TextBox x:Name="Destination_box" AcceptsReturn="True" HorizontalAlignment="Left" Height="200" Margin="10,585,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="647" FontSize="36" FontFamily="OCR A Extended" Background="#4FFFFFFF" Foreground="Green"/>
+        <CheckBox x:Name="jun_box" IsHitTestVisible="false"  Content="Submitted" HorizontalAlignment="Left" Height="48.009" Margin="1329.888,109.324,0,0" VerticalAlignment="Top" Width="151.31" FontSize="24"/>
+        <CheckBox x:Name="Address_box" IsHitTestVisible="false"  Content="Submitted" HorizontalAlignment="Left" Height="48.009" Margin="349.32,16.963,0,0" VerticalAlignment="Top" Width="151.31" FontSize="24"/>
+        <CheckBox x:Name="Dest_box" IsHitTestVisible="false"  Content="Submitted" HorizontalAlignment="Left" Height="48.009" Margin="661.94,672.209,0,0" VerticalAlignment="Top" Width="151.31" FontSize="24" Foreground="White"/>
+        <Button x:Name="Sub_Button_1" Content="Submit" HorizontalAlignment="Left" Height="64.848" Margin="505.63,10,0,0" VerticalAlignment="Top" Width="151.31" FontSize="36" FontFamily="OCR A Extended" Click="Submit_Address"/>
+        <Button x:Name="Sub_Button_2" Content="Submit" HorizontalAlignment="Left" Height="64.848" Margin="661.94,720.218,0,0" VerticalAlignment="Top" Width="151.31" FontSize="36" FontFamily="OCR A Extended" Click="Submit_Destinations"/>
+        <Button Content="FINAL SUBMIT" HorizontalAlignment="Left" Height="88.428" Margin="1249.355,250.674,0,0" VerticalAlignment="Top" Width="231.843" FontFamily="MS UI Gothic" FontSize="36" Click="Final_Submit"/>
+        <TextBlock HorizontalAlignment="Left" Height="64.848" Margin="10,511.942,0,0" TextWrapping="Wrap" Text="Enter Destination nodes :" VerticalAlignment="Top" Width="1208.515" FontSize="36" Foreground="White"/>
+        <Button Content="Restart&#xD;&#xA;" HorizontalAlignment="Left" Height="23" Margin="10,785,0,0" VerticalAlignment="Top" Width="49" Click="Reset"/>
+    </Grid>
+</Window>
